@@ -1,0 +1,7 @@
+<h1>Stream</h1>
+<img src="http://192.168.1.31:8080/?action=stream" />
+<h1>Commandes</h1>
+<%= button_to "UP", {:controller => :commands, :command=>"up"}, remote: true %>
+<%= button_to "DOWN", {:controller => :commands, :command=>"down"}, remote: true %>
+<%= button_to "LEFT", {:controller => :commands, :command=>"left"}, remote: true %>
+<%= button_to "RIGHT",{:controller => :commands, :command=>"right"}, remote: true %>
